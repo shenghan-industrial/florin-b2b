@@ -1,0 +1,8 @@
+name = "florin-b2b"
+compatibility_date = "2024-09-23"
+compatibility_flags = ["nodejs_compat"]
+pages_build_output_dir = ".vercel/output/static"
+
+[[kv_namespaces]]
+binding = "KV_STORE"
+id = "d640a428bcee4e1f8e912b04da20835d"
