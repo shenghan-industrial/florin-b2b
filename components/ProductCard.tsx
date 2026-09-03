@@ -4,13 +4,12 @@ import Link from "next/link";
 import { useT } from "@/lib/LanguageContext";
 import { useLang } from "@/lib/LanguageContext";
 import { pickLang } from "@/lib/localize";
-import { PLACEHOLDER_IMG } from "@/data/catalog";
 import type { Product } from "@/lib/types";
 
 export default function ProductCard({ p }: { p: Product }) {
   const { t } = useT();
   const lang = useLang();
-  const img = p.image || PLACEHOLDER_IMG[p.category];
+  const img = p.image;
   const name = pickLang(p.name, lang);
   const cat = pickLang(p.catLabel, lang);
   const unitLabel = lang === "zh" ? { pair: "对", set: "套", pc: "片", box: "盒" }[p.unit] || p.unit : p.unit;

@@ -22,10 +22,11 @@ const TRUST = [
 ];
 
 // ===== 区块3 · Real sourcing evidence（3 卡片）=====
+// 3 张证据卡使用真实 Cloudinary 图片（车间实拍 / 细节核对 / 成品包装），非占位图
 const EVIDENCE = [
-  { img: "evidence-1", ey: ["Real workshop video", "真实车间视频"], h: ["Meet the workshop behind the order", "看看订单背后的车间"], p: ["See the working environment where handmade press-on nail styles are prepared and reviewed.", "看看手工穿戴甲款式的生产与检验环境。"], btn: ["Watch the workshop video", "观看车间视频"], href: "/about-our-factory/" },
-  { img: "evidence-2", ey: ["Product detail review", "产品细节核对"], h: ["Inspect styles before committing", "下单前先核对款式"], p: ["Use live video to look closer at nail shape, finish, decoration, and presentation before placing an order.", "通过视频直播细看甲型、工艺、装饰与展示效果。"], btn: ["Review video selection", "视频选品"], href: "/1v1-live-selection/" },
-  { img: "evidence-3", ey: ["Finished packaging example", "成品包装示例"], h: ["Review a real branded packaging result", "看看真实的品牌包装成品"], p: ["See how a nail set, clear case, logo sticker, and outer box can be presented together.", "甲片套装、透明盒、logo 贴纸与外盒的组合展示。"], btn: ["Explore packaging options", "了解包装方案"], href: "/custom-private-label/" },
+  { img: "https://res.cloudinary.com/wn0jxugx/image/upload/florin/bybvl32oojea0v1znsuw.png", ey: ["Real workshop video", "真实车间视频"], h: ["Meet the workshop behind the order", "看看订单背后的车间"], p: ["See the working environment where handmade press-on nail styles are prepared and reviewed.", "看看手工穿戴甲款式的生产与检验环境。"], btn: ["Watch the workshop video", "观看车间视频"], href: "/about-our-factory/" },
+  { img: "https://res.cloudinary.com/wn0jxugx/image/upload/florin/i5g5kq0j43cv0vg0opjf.png", ey: ["Product detail review", "产品细节核对"], h: ["Inspect styles before committing", "下单前先核对款式"], p: ["Use live video to look closer at nail shape, finish, decoration, and presentation before placing an order.", "通过视频直播细看甲型、工艺、装饰与展示效果。"], btn: ["Review video selection", "视频选品"], href: "/1v1-live-selection/" },
+  { img: "https://res.cloudinary.com/wn0jxugx/image/upload/florin/j3zv6iynrlgbnl7sesdi.png", ey: ["Finished packaging example", "成品包装示例"], h: ["Review a real branded packaging result", "看看真实的品牌包装成品"], p: ["See how a nail set, clear case, logo sticker, and outer box can be presented together.", "甲片套装、透明盒、logo 贴纸与外盒的组合展示。"], btn: ["Explore packaging options", "了解包装方案"], href: "/custom-private-label/" },
 ];
 
 // ===== 区块4 · Proof strip（6 条）=====
@@ -258,7 +259,7 @@ export default function HomeContent({
           <div className="evidence">
             {EVIDENCE.map((ev) => (
               <div key={ev.h[0]} className="evidence__card">
-                <div className="evidence__media" style={{ backgroundImage: `url('/assets/images/placeholders/${ev.img}.svg')` }}>
+                <div className="evidence__media" style={{ backgroundImage: `url('${ev.img}')` }}>
                   <div className="play">
                     <svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z" /></svg>
                   </div>

@@ -1,0 +1,1041 @@
+[
+  {
+    "id": "N01",
+    "slug": "n01",
+    "name": {
+      "en": "Black Gold Rhinestone Luxury Nails (N01)",
+      "zh": "黑金水钻奢华甲（N01）"
+    },
+    "category": "nails",
+    "catLabel": {
+      "en": "Press-On Nails",
+      "zh": "穿戴甲"
+    },
+    "series": "Rhinestone Luxury",
+    "seriesLabel": {
+      "en": "Rhinestone Luxury",
+      "zh": "水钻奢华"
+    },
+    "price": 0,
+    "unit": "set",
+    "moq": 10,
+    "sample": true,
+    "oem": true,
+    "shape": "长",
+    "clearance": true,
+    "newArrival": true,
+    "bestSeller": true,
+    "custom": true,
+    "image": "https://res.cloudinary.com/wn0jxugx/image/upload/c_scale,w_600,f_webp/v1787638324/florin/products/rdpteosjyvjbo7sknafr.png",
+    "alt": "Press-on nails Black Gold Rhinestone Luxury Nails wholesale",
+    "gallery": [
+      "https://res.cloudinary.com/wn0jxugx/image/upload/v1787638324/florin/products/rdpteosjyvjbo7sknafr.png"
+    ],
+    "status": "published",
+    "createdAt": "2026-08-25T06:12:29.021Z",
+    "updatedAt": "2026-08-25T06:29:57.058Z",
+    "description": {
+      "en": "",
+      "zh": ""
+    },
+    "features": {
+      "en": [],
+      "zh": []
+    },
+    "specs": {
+      "en": [
+        {
+          "label": "Category",
+          "value": "Press-On Nails"
+        },
+        {
+          "label": "Series",
+          "value": "Rhinestone Luxury"
+        },
+        {
+          "label": "Shape / Style",
+          "value": "长"
+        },
+        {
+          "label": "Wholesale Price",
+          "value": "$0.00 / set"
+        },
+        {
+          "label": "Minimum Order",
+          "value": "10 set"
+        },
+        {
+          "label": "Sample",
+          "value": "Available"
+        },
+        {
+          "label": "OEM / Private-Label",
+          "value": "Supported"
+        },
+        {
+          "label": "Lead-Time",
+          "value": "15–25 working days (custom)"
+        },
+        {
+          "label": "Application",
+          "value": "Press-on, no UV lamp required"
+        },
+        {
+          "label": "Sizes per set",
+          "value": "14 sizes included"
+        }
+      ],
+      "zh": [
+        {
+          "label": "品类",
+          "value": "穿戴甲"
+        },
+        {
+          "label": "系列",
+          "value": "水钻奢华"
+        },
+        {
+          "label": "形状 / 款式",
+          "value": "长"
+        },
+        {
+          "label": "批发价",
+          "value": "$0.00 / 套"
+        },
+        {
+          "label": "起订量",
+          "value": "10 套"
+        },
+        {
+          "label": "样品",
+          "value": "支持"
+        },
+        {
+          "label": "贴牌 OEM",
+          "value": "支持"
+        },
+        {
+          "label": "交期",
+          "value": "15–25 个工作日（定制）"
+        },
+        {
+          "label": "佩戴方式",
+          "value": "按压式佩戴，无需 UV 灯"
+        },
+        {
+          "label": "每套尺码",
+          "value": "含 14 个尺码"
+        }
+      ]
+    },
+    "region": "ru-me"
+  },
+  {
+    "id": "N02",
+    "slug": "n02",
+    "name": {
+      "en": "Silver Diamond Green Gem Luxury Nails (N02)",
+      "zh": "银钻绿宝奢华甲（N02）"
+    },
+    "category": "nails",
+    "catLabel": {
+      "en": "Press-On Nails",
+      "zh": "穿戴甲"
+    },
+    "series": "Rhinestone Luxury",
+    "seriesLabel": {
+      "en": "Rhinestone Luxury",
+      "zh": "水钻奢华"
+    },
+    "price": 0,
+    "unit": "set",
+    "moq": 10,
+    "sample": true,
+    "oem": true,
+    "shape": "长",
+    "clearance": false,
+    "newArrival": true,
+    "bestSeller": true,
+    "custom": true,
+    "image": "https://res.cloudinary.com/wn0jxugx/image/upload/c_scale,w_600,f_webp/v1787638324/florin/products/css1bkyppunxz2hhmfnb.png",
+    "alt": "Press-on nails Silver Diamond Green Gem Luxury Nails wholesale",
+    "gallery": [
+      "https://res.cloudinary.com/wn0jxugx/image/upload/v1787638324/florin/products/css1bkyppunxz2hhmfnb.png"
+    ],
+    "status": "published",
+    "createdAt": "2026-08-25T06:12:29.021Z",
+    "updatedAt": "2026-08-25T06:12:29.021Z",
+    "region": "ru-me"
+  },
+  {
+    "id": "N03",
+    "slug": "n03",
+    "name": {
+      "en": "Christmas Pearl Embellished Nails (N03)",
+      "zh": "圣诞珍珠镶钻甲（N03）"
+    },
+    "category": "nails",
+    "catLabel": {
+      "en": "Press-On Nails",
+      "zh": "穿戴甲"
+    },
+    "series": "Rhinestone Luxury",
+    "seriesLabel": {
+      "en": "Rhinestone Luxury",
+      "zh": "水钻奢华"
+    },
+    "price": 0,
+    "unit": "set",
+    "moq": 10,
+    "sample": true,
+    "oem": true,
+    "shape": "长",
+    "clearance": true,
+    "newArrival": true,
+    "bestSeller": false,
+    "custom": true,
+    "image": "https://res.cloudinary.com/wn0jxugx/image/upload/c_scale,w_600,f_webp/v1787638328/florin/products/rp1fhl6qy1lb9a5dhbwb.png",
+    "alt": "Press-on nails Christmas Pearl Embellished Nails wholesale",
+    "gallery": [
+      "https://res.cloudinary.com/wn0jxugx/image/upload/v1787638328/florin/products/rp1fhl6qy1lb9a5dhbwb.png"
+    ],
+    "status": "published",
+    "createdAt": "2026-08-25T06:12:29.021Z",
+    "updatedAt": "2026-08-25T06:12:29.021Z",
+    "region": "ru-me"
+  },
+  {
+    "id": "N04",
+    "slug": "n04",
+    "name": {
+      "en": "Silver Skull Long Nails (N04)",
+      "zh": "银钻骷髅长甲（N04）"
+    },
+    "category": "nails",
+    "catLabel": {
+      "en": "Press-On Nails",
+      "zh": "穿戴甲"
+    },
+    "series": "Rhinestone Luxury",
+    "seriesLabel": {
+      "en": "Rhinestone Luxury",
+      "zh": "水钻奢华"
+    },
+    "price": 0,
+    "unit": "set",
+    "moq": 10,
+    "sample": true,
+    "oem": true,
+    "shape": "长",
+    "clearance": false,
+    "newArrival": true,
+    "bestSeller": false,
+    "custom": true,
+    "image": "https://res.cloudinary.com/wn0jxugx/image/upload/c_scale,w_600,f_webp/v1787638327/florin/products/bpnaxiid32mh84om0vxm.png",
+    "alt": "Press-on nails Silver Skull Long Nails wholesale",
+    "gallery": [
+      "https://res.cloudinary.com/wn0jxugx/image/upload/v1787638327/florin/products/bpnaxiid32mh84om0vxm.png"
+    ],
+    "status": "published",
+    "createdAt": "2026-08-25T06:12:29.021Z",
+    "updatedAt": "2026-08-25T06:12:29.021Z",
+    "region": "ru-me"
+  },
+  {
+    "id": "N05",
+    "slug": "n05",
+    "name": {
+      "en": "Rose Rhinestone Luxury Nails (N05)",
+      "zh": "玫瑰水钻奢华甲（N05）"
+    },
+    "category": "nails",
+    "catLabel": {
+      "en": "Press-On Nails",
+      "zh": "穿戴甲"
+    },
+    "series": "Rhinestone Luxury",
+    "seriesLabel": {
+      "en": "Rhinestone Luxury",
+      "zh": "水钻奢华"
+    },
+    "price": 0,
+    "unit": "set",
+    "moq": 10,
+    "sample": true,
+    "oem": true,
+    "shape": "长",
+    "clearance": false,
+    "newArrival": true,
+    "bestSeller": true,
+    "custom": true,
+    "image": "https://res.cloudinary.com/wn0jxugx/image/upload/c_scale,w_600,f_webp/v1787638329/florin/products/xevr0q6dcdosgfht0dwc.png",
+    "alt": "Press-on nails Rose Rhinestone Luxury Nails wholesale",
+    "gallery": [
+      "https://res.cloudinary.com/wn0jxugx/image/upload/v1787638329/florin/products/xevr0q6dcdosgfht0dwc.png"
+    ],
+    "status": "published",
+    "createdAt": "2026-08-25T06:12:29.021Z",
+    "updatedAt": "2026-08-25T06:12:29.021Z",
+    "region": "eu-na"
+  },
+  {
+    "id": "N06",
+    "slug": "n06",
+    "name": {
+      "en": "Pearl Silver Drill Long Nails (N06)",
+      "zh": "珍珠银钻长甲（N06）"
+    },
+    "category": "nails",
+    "catLabel": {
+      "en": "Press-On Nails",
+      "zh": "穿戴甲"
+    },
+    "series": "Rhinestone Luxury",
+    "seriesLabel": {
+      "en": "Rhinestone Luxury",
+      "zh": "水钻奢华"
+    },
+    "price": 0,
+    "unit": "set",
+    "moq": 10,
+    "sample": true,
+    "oem": true,
+    "shape": "长",
+    "clearance": false,
+    "newArrival": true,
+    "bestSeller": true,
+    "custom": true,
+    "image": "https://res.cloudinary.com/wn0jxugx/image/upload/c_scale,w_600,f_webp/v1787638329/florin/products/xhdxo4kvd3tysqw7g8ta.png",
+    "alt": "Press-on nails Pearl Silver Drill Long Nails wholesale",
+    "gallery": [
+      "https://res.cloudinary.com/wn0jxugx/image/upload/v1787638329/florin/products/xhdxo4kvd3tysqw7g8ta.png"
+    ],
+    "status": "published",
+    "createdAt": "2026-08-25T06:12:29.021Z",
+    "updatedAt": "2026-08-25T06:12:29.021Z",
+    "region": "eu-na"
+  },
+  {
+    "id": "N07",
+    "slug": "n07",
+    "name": {
+      "en": "Silver Glow Butterfly Dance Nails (N07)",
+      "zh": "银辉蝶舞穿戴甲（N07）"
+    },
+    "category": "nails",
+    "catLabel": {
+      "en": "Press-On Nails",
+      "zh": "穿戴甲"
+    },
+    "series": "Rhinestone Luxury",
+    "seriesLabel": {
+      "en": "Rhinestone Luxury",
+      "zh": "水钻奢华"
+    },
+    "price": 0,
+    "unit": "set",
+    "moq": 10,
+    "sample": true,
+    "oem": true,
+    "shape": "长",
+    "clearance": false,
+    "newArrival": true,
+    "bestSeller": false,
+    "custom": true,
+    "image": "https://res.cloudinary.com/wn0jxugx/image/upload/c_scale,w_600,f_webp/v1787638337/florin/products/kgzipsb2p2i8knjetk6g.png",
+    "alt": "Press-on nails Silver Glow Butterfly Dance Nails wholesale",
+    "gallery": [
+      "https://res.cloudinary.com/wn0jxugx/image/upload/v1787638337/florin/products/kgzipsb2p2i8knjetk6g.png"
+    ],
+    "status": "published",
+    "createdAt": "2026-08-25T06:12:29.021Z",
+    "updatedAt": "2026-08-25T06:12:29.021Z",
+    "region": "eu-na"
+  },
+  {
+    "id": "N08",
+    "slug": "n08",
+    "name": {
+      "en": "Silver Sparkle Long Nails (N08)",
+      "zh": "银钻闪耀长甲（N08）"
+    },
+    "category": "nails",
+    "catLabel": {
+      "en": "Press-On Nails",
+      "zh": "穿戴甲"
+    },
+    "series": "Rhinestone Luxury",
+    "seriesLabel": {
+      "en": "Rhinestone Luxury",
+      "zh": "水钻奢华"
+    },
+    "price": 0,
+    "unit": "set",
+    "moq": 10,
+    "sample": true,
+    "oem": true,
+    "shape": "长",
+    "clearance": false,
+    "newArrival": true,
+    "bestSeller": false,
+    "custom": true,
+    "image": "https://res.cloudinary.com/wn0jxugx/image/upload/c_scale,w_600,f_webp/v1787638336/florin/products/bat418u9eik2mfmxbpyv.png",
+    "alt": "Press-on nails Silver Sparkle Long Nails wholesale",
+    "gallery": [
+      "https://res.cloudinary.com/wn0jxugx/image/upload/v1787638336/florin/products/bat418u9eik2mfmxbpyv.png"
+    ],
+    "status": "published",
+    "createdAt": "2026-08-25T06:12:29.021Z",
+    "updatedAt": "2026-08-25T06:12:29.021Z",
+    "region": "ru-me"
+  },
+  {
+    "id": "N09",
+    "slug": "n09",
+    "name": {
+      "en": "Mint Lace Flower Nails (N09)",
+      "zh": "薄荷蕾丝花饰甲（N09）"
+    },
+    "category": "nails",
+    "catLabel": {
+      "en": "Press-On Nails",
+      "zh": "穿戴甲"
+    },
+    "series": "3D Art Sculpted",
+    "seriesLabel": {
+      "en": "3D Art Sculpted",
+      "zh": "3D艺术浮雕"
+    },
+    "price": 0,
+    "unit": "set",
+    "moq": 10,
+    "sample": true,
+    "oem": true,
+    "shape": "长",
+    "clearance": false,
+    "newArrival": true,
+    "bestSeller": false,
+    "custom": true,
+    "image": "https://res.cloudinary.com/wn0jxugx/image/upload/c_scale,w_600,f_webp/v1787638325/florin/products/fqtqy54opubq4nd8xh4i.png",
+    "alt": "Press-on nails Mint Lace Flower Nails wholesale",
+    "gallery": [
+      "https://res.cloudinary.com/wn0jxugx/image/upload/v1787638325/florin/products/fqtqy54opubq4nd8xh4i.png"
+    ],
+    "status": "published",
+    "createdAt": "2026-08-25T06:12:29.021Z",
+    "updatedAt": "2026-08-25T06:12:29.021Z",
+    "region": "eu-na"
+  },
+  {
+    "id": "N10",
+    "slug": "n10",
+    "name": {
+      "en": "Lion Dance Embroidered Nails (N10)",
+      "zh": "舞狮珠绣甲（N10）"
+    },
+    "category": "nails",
+    "catLabel": {
+      "en": "Press-On Nails",
+      "zh": "穿戴甲"
+    },
+    "series": "3D Art Sculpted",
+    "seriesLabel": {
+      "en": "3D Art Sculpted",
+      "zh": "3D艺术浮雕"
+    },
+    "price": 0,
+    "unit": "set",
+    "moq": 10,
+    "sample": true,
+    "oem": true,
+    "shape": "长",
+    "clearance": true,
+    "newArrival": true,
+    "bestSeller": false,
+    "custom": true,
+    "image": "https://res.cloudinary.com/wn0jxugx/image/upload/c_scale,w_600,f_webp/v1787638326/florin/products/lvcuivwcaxdoytljvczv.png",
+    "alt": "Press-on nails Lion Dance Embroidered Nails wholesale",
+    "gallery": [
+      "https://res.cloudinary.com/wn0jxugx/image/upload/v1787638326/florin/products/lvcuivwcaxdoytljvczv.png"
+    ],
+    "status": "published",
+    "createdAt": "2026-08-25T06:12:29.021Z",
+    "updatedAt": "2026-08-25T06:12:29.021Z",
+    "region": "apac"
+  },
+  {
+    "id": "N11",
+    "slug": "n11",
+    "name": {
+      "en": "Petal Relief French Nails (N11)",
+      "zh": "花瓣浮雕法式甲（N11）"
+    },
+    "category": "nails",
+    "catLabel": {
+      "en": "Press-On Nails",
+      "zh": "穿戴甲"
+    },
+    "series": "3D Art Sculpted",
+    "seriesLabel": {
+      "en": "3D Art Sculpted",
+      "zh": "3D艺术浮雕"
+    },
+    "price": 0,
+    "unit": "set",
+    "moq": 10,
+    "sample": true,
+    "oem": true,
+    "shape": "长",
+    "clearance": false,
+    "newArrival": true,
+    "bestSeller": false,
+    "custom": true,
+    "image": "https://res.cloudinary.com/wn0jxugx/image/upload/c_scale,w_600,f_webp/v1787638326/florin/products/ld5ri5dvginglgyvotew.png",
+    "alt": "Press-on nails Petal Relief French Nails wholesale",
+    "gallery": [
+      "https://res.cloudinary.com/wn0jxugx/image/upload/v1787638326/florin/products/ld5ri5dvginglgyvotew.png"
+    ],
+    "status": "published",
+    "createdAt": "2026-08-25T06:12:29.021Z",
+    "updatedAt": "2026-08-25T06:12:29.021Z",
+    "region": "eu-na"
+  },
+  {
+    "id": "N12",
+    "slug": "n12",
+    "name": {
+      "en": "Cherry Blossom 3D Sculpted Nails (N12)",
+      "zh": "樱花浮雕美甲（N12）"
+    },
+    "category": "nails",
+    "catLabel": {
+      "en": "Press-On Nails",
+      "zh": "穿戴甲"
+    },
+    "series": "3D Art Sculpted",
+    "seriesLabel": {
+      "en": "3D Art Sculpted",
+      "zh": "3D艺术浮雕"
+    },
+    "price": 0,
+    "unit": "set",
+    "moq": 10,
+    "sample": true,
+    "oem": true,
+    "shape": "长",
+    "clearance": false,
+    "newArrival": true,
+    "bestSeller": true,
+    "custom": true,
+    "image": "https://res.cloudinary.com/wn0jxugx/image/upload/c_scale,w_600,f_webp/v1787638328/florin/products/nmoh6ccrgmtumfnokb3y.png",
+    "alt": "Press-on nails Cherry Blossom 3D Sculpted Nails wholesale",
+    "gallery": [
+      "https://res.cloudinary.com/wn0jxugx/image/upload/v1787638328/florin/products/nmoh6ccrgmtumfnokb3y.png"
+    ],
+    "status": "published",
+    "createdAt": "2026-08-25T06:12:29.021Z",
+    "updatedAt": "2026-08-25T06:12:29.021Z",
+    "region": "apac"
+  },
+  {
+    "id": "N13",
+    "slug": "n13",
+    "name": {
+      "en": "Lion Dance Pearl Nails (N13)",
+      "zh": "舞狮金珠穿戴甲（N13）"
+    },
+    "category": "nails",
+    "catLabel": {
+      "en": "Press-On Nails",
+      "zh": "穿戴甲"
+    },
+    "series": "3D Art Sculpted",
+    "seriesLabel": {
+      "en": "3D Art Sculpted",
+      "zh": "3D艺术浮雕"
+    },
+    "price": 0,
+    "unit": "set",
+    "moq": 10,
+    "sample": true,
+    "oem": true,
+    "shape": "中",
+    "clearance": true,
+    "newArrival": true,
+    "bestSeller": false,
+    "custom": true,
+    "image": "https://res.cloudinary.com/wn0jxugx/image/upload/c_scale,w_600,f_webp/v1787638332/florin/products/t6j9v50hk8pgmfirgadq.png",
+    "alt": "Press-on nails Lion Dance Pearl Nails wholesale",
+    "gallery": [
+      "https://res.cloudinary.com/wn0jxugx/image/upload/v1787638332/florin/products/t6j9v50hk8pgmfirgadq.png"
+    ],
+    "status": "published",
+    "createdAt": "2026-08-25T06:12:29.021Z",
+    "updatedAt": "2026-08-25T06:12:29.021Z",
+    "region": "apac"
+  },
+  {
+    "id": "N14",
+    "slug": "n14",
+    "name": {
+      "en": "Pearl Lace 3D Nails (N14)",
+      "zh": "珍珠蕾丝3D甲（N14）"
+    },
+    "category": "nails",
+    "catLabel": {
+      "en": "Press-On Nails",
+      "zh": "穿戴甲"
+    },
+    "series": "3D Art Sculpted",
+    "seriesLabel": {
+      "en": "3D Art Sculpted",
+      "zh": "3D艺术浮雕"
+    },
+    "price": 0,
+    "unit": "set",
+    "moq": 10,
+    "sample": true,
+    "oem": true,
+    "shape": "中",
+    "clearance": false,
+    "newArrival": true,
+    "bestSeller": true,
+    "custom": true,
+    "image": "https://res.cloudinary.com/wn0jxugx/image/upload/c_scale,w_600,f_webp/v1787638332/florin/products/bn7hidckuvtesig6jj9u.png",
+    "alt": "Press-on nails Pearl Lace 3D Nails wholesale",
+    "gallery": [
+      "https://res.cloudinary.com/wn0jxugx/image/upload/v1787638332/florin/products/bn7hidckuvtesig6jj9u.png"
+    ],
+    "status": "published",
+    "createdAt": "2026-08-25T06:12:29.021Z",
+    "updatedAt": "2026-08-25T06:12:29.021Z",
+    "region": "eu-na"
+  },
+  {
+    "id": "N15",
+    "slug": "n15",
+    "name": {
+      "en": "Cheese Mouse Long Nails (N15)",
+      "zh": "奶酪萌鼠长甲（N15）"
+    },
+    "category": "nails",
+    "catLabel": {
+      "en": "Press-On Nails",
+      "zh": "穿戴甲"
+    },
+    "series": "3D Art Sculpted",
+    "seriesLabel": {
+      "en": "3D Art Sculpted",
+      "zh": "3D艺术浮雕"
+    },
+    "price": 0,
+    "unit": "set",
+    "moq": 10,
+    "sample": true,
+    "oem": true,
+    "shape": "长",
+    "clearance": true,
+    "newArrival": true,
+    "bestSeller": false,
+    "custom": true,
+    "image": "https://res.cloudinary.com/wn0jxugx/image/upload/c_scale,w_600,f_webp/v1787638333/florin/products/ssdqvwvx0icrpcfmltz5.png",
+    "alt": "Press-on nails Cheese Mouse Long Nails wholesale",
+    "gallery": [
+      "https://res.cloudinary.com/wn0jxugx/image/upload/v1787638333/florin/products/ssdqvwvx0icrpcfmltz5.png"
+    ],
+    "status": "published",
+    "createdAt": "2026-08-25T06:12:29.021Z",
+    "updatedAt": "2026-08-25T06:12:29.021Z",
+    "region": "ru-me"
+  },
+  {
+    "id": "N16",
+    "slug": "n16",
+    "name": {
+      "en": "Cute Dog 3D Nails (N16)",
+      "zh": "狗狗可爱浮雕甲（N16）"
+    },
+    "category": "nails",
+    "catLabel": {
+      "en": "Press-On Nails",
+      "zh": "穿戴甲"
+    },
+    "series": "3D Art Sculpted",
+    "seriesLabel": {
+      "en": "3D Art Sculpted",
+      "zh": "3D艺术浮雕"
+    },
+    "price": 0,
+    "unit": "set",
+    "moq": 10,
+    "sample": true,
+    "oem": true,
+    "shape": "中",
+    "clearance": true,
+    "newArrival": true,
+    "bestSeller": false,
+    "custom": true,
+    "image": "https://res.cloudinary.com/wn0jxugx/image/upload/c_scale,w_600,f_webp/v1787638334/florin/products/ytzmulbpatzb3qu7toy2.png",
+    "alt": "Press-on nails Cute Dog 3D Nails wholesale",
+    "gallery": [
+      "https://res.cloudinary.com/wn0jxugx/image/upload/v1787638334/florin/products/ytzmulbpatzb3qu7toy2.png"
+    ],
+    "status": "published",
+    "createdAt": "2026-08-25T06:12:29.021Z",
+    "updatedAt": "2026-08-25T06:12:29.021Z",
+    "region": "apac"
+  },
+  {
+    "id": "N17",
+    "slug": "n17",
+    "name": {
+      "en": "Floral Pearl 3D Nails (N17)",
+      "zh": "花漾珍珠3D甲（N17）"
+    },
+    "category": "nails",
+    "catLabel": {
+      "en": "Press-On Nails",
+      "zh": "穿戴甲"
+    },
+    "series": "3D Art Sculpted",
+    "seriesLabel": {
+      "en": "3D Art Sculpted",
+      "zh": "3D艺术浮雕"
+    },
+    "price": 0,
+    "unit": "set",
+    "moq": 10,
+    "sample": true,
+    "oem": true,
+    "shape": "长",
+    "clearance": false,
+    "newArrival": true,
+    "bestSeller": false,
+    "custom": true,
+    "image": "https://res.cloudinary.com/wn0jxugx/image/upload/c_scale,w_600,f_webp/v1787638337/florin/products/p3xv1vx7t7w1odmzjg4p.png",
+    "alt": "Press-on nails Floral Pearl 3D Nails wholesale",
+    "gallery": [
+      "https://res.cloudinary.com/wn0jxugx/image/upload/v1787638337/florin/products/p3xv1vx7t7w1odmzjg4p.png"
+    ],
+    "status": "published",
+    "createdAt": "2026-08-25T06:12:29.021Z",
+    "updatedAt": "2026-08-25T06:12:29.021Z",
+    "region": "apac"
+  },
+  {
+    "id": "N18",
+    "slug": "n18",
+    "name": {
+      "en": "Grid Duck Nails (N18)",
+      "zh": "格纹小鸭甲（N18）"
+    },
+    "category": "nails",
+    "catLabel": {
+      "en": "Press-On Nails",
+      "zh": "穿戴甲"
+    },
+    "series": "3D Art Sculpted",
+    "seriesLabel": {
+      "en": "3D Art Sculpted",
+      "zh": "3D艺术浮雕"
+    },
+    "price": 0,
+    "unit": "set",
+    "moq": 10,
+    "sample": true,
+    "oem": true,
+    "shape": "中",
+    "clearance": false,
+    "newArrival": true,
+    "bestSeller": false,
+    "custom": true,
+    "image": "https://res.cloudinary.com/wn0jxugx/image/upload/c_scale,w_600,f_webp/v1787638337/florin/products/sdwqcifrrrmewksru1zk.png",
+    "alt": "Press-on nails Grid Duck Nails wholesale",
+    "gallery": [
+      "https://res.cloudinary.com/wn0jxugx/image/upload/v1787638337/florin/products/sdwqcifrrrmewksru1zk.png"
+    ],
+    "status": "published",
+    "createdAt": "2026-08-25T06:12:29.021Z",
+    "updatedAt": "2026-08-25T06:30:13.846Z",
+    "description": {
+      "en": "",
+      "zh": ""
+    },
+    "features": {
+      "en": [],
+      "zh": []
+    },
+    "specs": {
+      "en": [
+        {
+          "label": "Category",
+          "value": "Press-On Nails"
+        },
+        {
+          "label": "Series",
+          "value": "3D Art Sculpted"
+        },
+        {
+          "label": "Shape / Style",
+          "value": "中"
+        },
+        {
+          "label": "Wholesale Price",
+          "value": "$0.00 / set"
+        },
+        {
+          "label": "Minimum Order",
+          "value": "10 set"
+        },
+        {
+          "label": "Sample",
+          "value": "Available"
+        },
+        {
+          "label": "OEM / Private-Label",
+          "value": "Supported"
+        },
+        {
+          "label": "Lead-Time",
+          "value": "15–25 working days (custom)"
+        },
+        {
+          "label": "Application",
+          "value": "Press-on, no UV lamp required"
+        },
+        {
+          "label": "Sizes per set",
+          "value": "14 sizes included"
+        }
+      ],
+      "zh": [
+        {
+          "label": "品类",
+          "value": "穿戴甲"
+        },
+        {
+          "label": "系列",
+          "value": "3D艺术浮雕"
+        },
+        {
+          "label": "形状 / 款式",
+          "value": "中"
+        },
+        {
+          "label": "批发价",
+          "value": "$0.00 / 套"
+        },
+        {
+          "label": "起订量",
+          "value": "10 套"
+        },
+        {
+          "label": "样品",
+          "value": "支持"
+        },
+        {
+          "label": "贴牌 OEM",
+          "value": "支持"
+        },
+        {
+          "label": "交期",
+          "value": "15–25 个工作日（定制）"
+        },
+        {
+          "label": "佩戴方式",
+          "value": "按压式佩戴，无需 UV 灯"
+        },
+        {
+          "label": "每套尺码",
+          "value": "含 14 个尺码"
+        }
+      ]
+    },
+    "region": "apac"
+  },
+  {
+    "id": "N19",
+    "slug": "n19",
+    "name": {
+      "en": "Hello Kitty Pearl Nails (N19)",
+      "zh": "Hello Kitty珍珠甲（N19）"
+    },
+    "category": "nails",
+    "catLabel": {
+      "en": "Press-On Nails",
+      "zh": "穿戴甲"
+    },
+    "series": "3D Art Sculpted",
+    "seriesLabel": {
+      "en": "3D Art Sculpted",
+      "zh": "3D艺术浮雕"
+    },
+    "price": 0,
+    "unit": "set",
+    "moq": 10,
+    "sample": true,
+    "oem": true,
+    "shape": "长",
+    "clearance": false,
+    "newArrival": true,
+    "bestSeller": true,
+    "custom": true,
+    "image": "https://res.cloudinary.com/wn0jxugx/image/upload/c_scale,w_600,f_webp/v1787638344/florin/products/rkgkzssi5eajjlbwe3hh.png",
+    "alt": "Press-on nails Hello Kitty Pearl Nails wholesale",
+    "gallery": [
+      "https://res.cloudinary.com/wn0jxugx/image/upload/v1787638344/florin/products/rkgkzssi5eajjlbwe3hh.png"
+    ],
+    "status": "published",
+    "createdAt": "2026-08-25T06:12:29.021Z",
+    "updatedAt": "2026-08-25T06:12:29.021Z",
+    "region": "apac"
+  },
+  {
+    "id": "N20",
+    "slug": "n20",
+    "name": {
+      "en": "Starlight Green Gold Wearable Nails (N20)",
+      "zh": "星空绿金穿戴甲（N20）"
+    },
+    "category": "nails",
+    "catLabel": {
+      "en": "Press-On Nails",
+      "zh": "穿戴甲"
+    },
+    "series": "3D Art Sculpted",
+    "seriesLabel": {
+      "en": "3D Art Sculpted",
+      "zh": "3D艺术浮雕"
+    },
+    "price": 0,
+    "unit": "set",
+    "moq": 10,
+    "sample": true,
+    "oem": true,
+    "shape": "长",
+    "clearance": false,
+    "newArrival": true,
+    "bestSeller": false,
+    "custom": true,
+    "image": "https://res.cloudinary.com/wn0jxugx/image/upload/c_scale,w_600,f_webp/v1787638345/florin/products/nmrfa335ayuasejsbrow.png",
+    "alt": "Press-on nails Starlight Green Gold Wearable Nails wholesale",
+    "gallery": [
+      "https://res.cloudinary.com/wn0jxugx/image/upload/v1787638345/florin/products/nmrfa335ayuasejsbrow.png"
+    ],
+    "status": "published",
+    "createdAt": "2026-08-25T06:12:29.021Z",
+    "updatedAt": "2026-08-25T06:12:29.021Z",
+    "region": "eu-na"
+  },
+  {
+    "id": "N21",
+    "slug": "n21",
+    "name": {
+      "en": "Cat Eye Butterfly Nails (N21)",
+      "zh": "猫眼蝶舞甲（N21）"
+    },
+    "category": "nails",
+    "catLabel": {
+      "en": "Press-On Nails",
+      "zh": "穿戴甲"
+    },
+    "series": "Cat-Eye",
+    "seriesLabel": {
+      "en": "Cat Eye",
+      "zh": "猫眼"
+    },
+    "price": 0,
+    "unit": "set",
+    "moq": 10,
+    "sample": true,
+    "oem": true,
+    "shape": "中",
+    "clearance": false,
+    "newArrival": true,
+    "bestSeller": true,
+    "custom": true,
+    "image": "https://res.cloudinary.com/wn0jxugx/image/upload/c_scale,w_600,f_webp/v1787638332/florin/products/eukfdbaj6ws3h7lkgsjc.png",
+    "alt": "Press-on nails Cat Eye Butterfly Nails wholesale",
+    "gallery": [
+      "https://res.cloudinary.com/wn0jxugx/image/upload/v1787638332/florin/products/eukfdbaj6ws3h7lkgsjc.png"
+    ],
+    "status": "published",
+    "createdAt": "2026-08-25T06:12:29.021Z",
+    "updatedAt": "2026-08-25T06:12:29.021Z",
+    "region": "apac"
+  },
+  {
+    "id": "N22",
+    "slug": "n22",
+    "name": {
+      "en": "Cat Eye Butterfly Glamour Nails (N22)",
+      "zh": "猫眼蝶舞穿戴甲（N22）"
+    },
+    "category": "nails",
+    "catLabel": {
+      "en": "Press-On Nails",
+      "zh": "穿戴甲"
+    },
+    "series": "Cat-Eye",
+    "seriesLabel": {
+      "en": "Cat Eye",
+      "zh": "猫眼"
+    },
+    "price": 0,
+    "unit": "set",
+    "moq": 10,
+    "sample": true,
+    "oem": true,
+    "shape": "中",
+    "clearance": false,
+    "newArrival": true,
+    "bestSeller": false,
+    "custom": true,
+    "image": "https://res.cloudinary.com/wn0jxugx/image/upload/c_scale,w_600,f_webp/v1787638338/florin/products/ddteaqyheulpgrbvbozl.png",
+    "alt": "Press-on nails Cat Eye Butterfly Glamour Nails wholesale",
+    "gallery": [
+      "https://res.cloudinary.com/wn0jxugx/image/upload/v1787638338/florin/products/ddteaqyheulpgrbvbozl.png"
+    ],
+    "status": "published",
+    "createdAt": "2026-08-25T06:12:29.021Z",
+    "updatedAt": "2026-08-25T06:12:29.021Z",
+    "region": "eu-na"
+  },
+  {
+    "id": "N23",
+    "slug": "n23",
+    "name": {
+      "en": "Cat Eye Butterfly Nails (N23)",
+      "zh": "猫眼蝶舞甲（N23）"
+    },
+    "category": "nails",
+    "catLabel": {
+      "en": "Press-On Nails",
+      "zh": "穿戴甲"
+    },
+    "series": "Cat-Eye",
+    "seriesLabel": {
+      "en": "Cat Eye",
+      "zh": "猫眼"
+    },
+    "price": 0,
+    "unit": "set",
+    "moq": 10,
+    "sample": true,
+    "oem": true,
+    "shape": "中",
+    "clearance": false,
+    "newArrival": true,
+    "bestSeller": false,
+    "custom": true,
+    "image": "https://res.cloudinary.com/wn0jxugx/image/upload/c_scale,w_600,f_webp/v1787638346/florin/products/yvi73n0rskghmuhv20fr.png",
+    "alt": "Press-on nails Cat Eye Butterfly Nails wholesale",
+    "gallery": [
+      "https://res.cloudinary.com/wn0jxugx/image/upload/v1787638346/florin/products/yvi73n0rskghmuhv20fr.png"
+    ],
+    "status": "published",
+    "createdAt": "2026-08-25T06:12:29.021Z",
+    "updatedAt": "2026-08-25T06:12:29.021Z",
+    "region": "ru-me"
+  }
+]

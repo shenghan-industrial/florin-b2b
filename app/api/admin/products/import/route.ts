@@ -2,7 +2,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import { normalizeProduct, saveProduct, getAllProducts } from "@/lib/products-db";
 import { requirePermission } from "@/lib/auth";
-import { CATEGORY_LABEL, CATEGORY_CODES, SERIES_LABELS, PLACEHOLDER_IMG } from "@/data/catalog";
+import { CATEGORY_LABEL, CATEGORY_CODES, SERIES_LABELS } from "@/data/catalog";
 import type { CategoryId } from "@/lib/types";
 
 export const runtime = "edge";
@@ -73,7 +73,7 @@ export async function POST(req: NextRequest) {
       shape: row[iShape] || "—",
       custom: true,
       status: "published",
-      image: row[iImage] || PLACEHOLDER_IMG[category],
+      image: row[iImage] || "",
       alt: nameEn,
     });
     const saved = await saveProduct(product);
