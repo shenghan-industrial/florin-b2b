@@ -85,13 +85,13 @@ function NailShapeSvg({ id }: { id: string }) {
   const g = (
     <defs>
       <linearGradient id={`ng-${id}`} x1="0" y1="0" x2="0" y2="1">
-        <stop offset="0" stopColor="#F9EDEC" />
-        <stop offset="1" stopColor="#E4CECB" />
+        <stop offset="0" stopColor="#F4D0CA" />
+        <stop offset="1" stopColor="#E2A9A0" />
       </linearGradient>
     </defs>
   );
   const fill = `url(#ng-${id})`;
-  const common = { fill, stroke: "#D9BDB8", strokeWidth: 1.4 } as const;
+  const common = { fill, stroke: "#C58A80", strokeWidth: 1.4 } as const;
   const svgStyle = { maxHeight: 96, maxWidth: 110, display: "block", margin: "0 auto" } as const;
   switch (id) {
     // 方型：平直甲尖，两侧平行，仅角部轻微圆角
