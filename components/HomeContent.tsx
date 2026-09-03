@@ -92,7 +92,7 @@ function NailShapeSvg({ id }: { id: string }) {
   );
   const fill = `url(#ng-${id})`;
   const common = { fill, stroke: "#D9BDB8", strokeWidth: 1.4 } as const;
-  const svgStyle = { height: 96, display: "block", margin: "0 auto" } as const;
+  const svgStyle = { maxHeight: 96, maxWidth: 110, display: "block", margin: "0 auto" } as const;
   switch (id) {
     // 方型：平直甲尖，两侧平行，仅角部轻微圆角
     case "Square":
@@ -359,8 +359,7 @@ export default function HomeContent({
             {NAIL_SHAPES.map((s) => (
               <Link key={s[0]} className="shape-card" href="/press-on-nails-wholesale/">
                 <div className="shape-card__fig">
-                  {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img src={`/uploads/shapes/${s[0].toLowerCase()}.png`} alt={L(s)} loading="lazy" style={{ maxHeight: 96, maxWidth: 110, objectFit: "contain" }} />
+                  <NailShapeSvg id={s[0]} />
                 </div>
                 <span>{L(s)}</span>
               </Link>
