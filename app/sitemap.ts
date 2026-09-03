@@ -4,6 +4,12 @@ import { getAllProducts } from "@/lib/products-db";
 import { getAllPosts } from "@/lib/blog-db";
 import { PAGE_SLUGS } from "@/data/pages";
 
+// 与其他页面保持一致：edge 运行时 + 每次请求生成。
+// 否则会在构建期静态生成，而构建环境没有 KV 绑定，会回落到 data/products.ts 的
+// 种子数据，导致 sitemap 里全是 KV 中不存在的失效 slug。
+export const runtime = "edge";
+export const dynamic = "force-dynamic";
+
 const BASE = "https://www.florinwholesale.com";
 
 const COLLECTIONS = [
