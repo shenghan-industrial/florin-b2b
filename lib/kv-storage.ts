@@ -14,6 +14,32 @@ declare global {
 let fsMod: typeof import("fs") | null = null;
 let pathMod: typeof import("path") | null = null;
 
+// 生产环境可能使用的 KV binding 名称（按优先级尝试）
+const BINDING_NAMES = ["KV_STORE", "KV", "FLORIN_KV"] as const;
+
+function isKVLike(v: unknown): v is KVNamespaceLike {
+  return (
+    !!v &&
+    typeof v === "object" &&
+    typeof (v as KVNamespaceLike).get === "function" &&
+    typeof (v as KVNamespaceLike).put === "function"
+  );
+}
+
+// 从某个 env 容器中按顺序查找可用的 KV 绑定
+function readBinding(store: unknown): KVNamespaceLike | null {
+  if (!store || typeof store !== "object") return null;
+  for (const name of BINDING_NAMES) {
+    try {
+      const v = (store as Record<string, unknown>)[name];
+      if (isKVLike(v)) return v;
+    } catch {
+      /* 容器访问抛错（如 Proxy store 为 null）则继续 */
+    }
+  }
+  return null;
+}
+
 function getFs() {
   if (fsMod === null) {
     try {
@@ -50,13 +76,53 @@ function isDev(): boolean {
   }
 }
 
+// 记录实际命中的绑定来源，便于线上排障（仅诊断用）
+let kvSource = "none";
+export function getKVSource(): string {
+  return kvSource;
+}
+
 export function getKV(): KVNamespaceLike | null {
+  // 1) Workers 全局注入（本地 wrangler / 部分运行时会把 binding 挂到 globalThis）
   try {
-    if (globalThis.KV_STORE) return globalThis.KV_STORE;
+    const hit = readBinding(globalThis);
+    if (hit) {
+      kvSource = "globalThis";
+      return hit;
+    }
   } catch {
     /* ignore */
   }
+
+  // 2) next-on-pages：绑定被注入到 process.env（其 env 是一个 AsyncLocalStorage Proxy，
+  //    仅在请求上下文内可读；不在请求内访问会抛错，故必须 try/catch）
+  try {
+    const proc = (globalThis as { process?: { env?: unknown } }).process;
+    const hit = readBinding(proc?.env);
+    if (hit) {
+      kvSource = "process.env";
+      return hit;
+    }
+  } catch {
+    /* ignore */
+  }
+
+  // 3) next-on-pages 请求上下文 __cloudflare-request-context__.env
+  try {
+    const ctx = (globalThis as Record<symbol, unknown>)[
+      Symbol.for("__cloudflare-request-context__")
+    ];
+    const hit = readBinding((ctx as { env?: unknown } | undefined)?.env) || readBinding(ctx);
+    if (hit) {
+      kvSource = "request-context";
+      return hit;
+    }
+  } catch {
+    /* ignore */
+  }
+
   if (isDev()) {
+    kvSource = "dev-bridge";
     // fetch 桥接适配器（edge 沙箱可用）
     return {
       get: async (key: string) => {
@@ -77,6 +143,7 @@ export function getKV(): KVNamespaceLike | null {
       },
     };
   }
+  kvSource = "fs-fallback";
   return null;
 }
 
@@ -125,9 +192,10 @@ export async function kvPutJSON<T>(key: string, value: T): Promise<void> {
 }
 
 // 首次读取时为空 → 写入种子数据（用于 products/blog/site-content 初始化）
+// 注意：仅当 KV 真正可用时才写种子，避免绑定缺失时用旧种子静默覆盖线上数据
 export async function kvSeedIfEmpty<T>(key: string, seed: T): Promise<T> {
   const existing = await kvGetJSON<T>(key);
   if (existing) return existing;
-  await kvPutJSON(key, seed);
+  if (getKV()) await kvPutJSON(key, seed);
   return seed;
 }

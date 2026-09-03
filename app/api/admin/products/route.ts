@@ -1,6 +1,7 @@
 // 产品列表 / 新增
 import { NextRequest, NextResponse } from "next/server";
 import { getAllProducts, normalizeProduct, saveProduct } from "@/lib/products-db";
+import { getKV, getKVSource } from "@/lib/kv-storage";
 import { requirePermission } from "@/lib/auth";
 import { CATEGORY_LABEL, SERIES_LABELS } from "@/data/catalog";
 
@@ -9,7 +10,16 @@ export const runtime = "edge";
 export async function GET(req: NextRequest) {
   // GET 允许公开读（middleware PUBLIC_READ）——前台目录也可用
   const list = await getAllProducts(true);
-  return NextResponse.json({ products: list });
+  // _diag 仅用于线上排障，不参与前端渲染（前端只读 products）
+  const _diag = {
+    kvSource: getKVSource(),
+    kvAvailable: !!getKV(),
+    count: list.length,
+    cloudinaryImages: list.filter((p) => p.image?.includes("res.cloudinary.com")).length,
+    placeholderImages: list.filter((p) => p.image?.includes("placeholders")).length,
+    regions: [...new Set(list.map((p) => p.region).filter(Boolean))],
+  };
+  return NextResponse.json({ products: list, _diag });
 }
 
 export async function POST(req: NextRequest) {
