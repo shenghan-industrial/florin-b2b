@@ -32,13 +32,17 @@ export default function ProductCard({ p }: { p: Product }) {
       data-sample={p.sample ? 1 : 0}
     >
       <div className="product-card__media">
-        {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img className="ph-img" src={img} alt={p.alt || name} loading="lazy" />
-        <div className="product-card__tags">{tags}</div>
+        {/* 手机端 4 列下 CTA 按钮隐藏，图片与名称均作入口，保证整卡可点 */}
+        <Link href={`/product/${p.slug}/`} aria-label={name}>
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img className="ph-img" src={img} alt={p.alt || name} loading="lazy" />
+        </Link>
       </div>
       <div className="product-card__body">
+        {/* 标签移出图片：移动端平铺在信息区顶部，桌面端（≥768px）由 CSS 浮回图片左上角 */}
+        <div className="product-card__tags">{tags}</div>
         <div className="product-card__cat">{cat}</div>
-        <div className="product-card__name">{name}</div>
+        <Link href={`/product/${p.slug}/`} className="product-card__name">{name}</Link>
         <div className="product-card__price">
           {p.price > 0 ? (
             p.clearance ? (
