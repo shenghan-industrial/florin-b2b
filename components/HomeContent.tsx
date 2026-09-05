@@ -359,7 +359,8 @@ export default function HomeContent({
             {NAIL_SHAPES.map((s) => (
               <Link key={s[0]} className="shape-card" href="/press-on-nails-wholesale/">
                 <div className="shape-card__fig">
-                  <NailShapeSvg id={s[0]} />
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img src={`/uploads/shapes/${s[0].toLowerCase()}.png`} alt={L(s)} loading="lazy" style={{ maxHeight: 96, maxWidth: 110, objectFit: "contain" }} />
                 </div>
                 <span>{L(s)}</span>
               </Link>
